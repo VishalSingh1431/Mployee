@@ -30,7 +30,7 @@ const Jobs = () => {
   useEffect(() => {
     const fetchJobs = async () => {
       try {
-        const res = await axios.get('http://localhost:5000/api/jobs');
+        const res = await axios.get('https://mployee-production.up.railway.app/api/jobs');
         if (Array.isArray(res.data)) {
           setJobs(res.data);
         } else {
