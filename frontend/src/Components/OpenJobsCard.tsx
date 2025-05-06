@@ -28,7 +28,7 @@ const OpenJobsCard: React.FC<OpenJobsCardProps> = ({
   fullDescription,
 }) => {
   return (
-    <div className="border rounded-md shadow-sm max-w-2xl p-4 font-sans bg-white">
+    <div className="border rounded-md shadow-sm max-w-2xl p-4 font-sans bg-white overflow-hidden">
       {/* Header */}
       <div className="flex justify-between items-start">
         <div>
