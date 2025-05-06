@@ -1,4 +1,4 @@
- 
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import JobsCard from './JobsCard';
 import OpenJobsCard from './OpenJobsCard';
